@@ -65,7 +65,14 @@ body{
 .search-box:hover > .search-text{
     width: 40vw;
     padding-left: 20px;
+    outline: none;
 
+}
+
+
+.search-text:focus { /*não deixa a barra a voltar*/
+    width: 40vw;
+   
 }
 @media only screen and (width:650px){
     .search-box:hover > .search-text{
